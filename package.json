@@ -4,6 +4,9 @@
     "packages/core",
     "packages/webpack"
   ],
+  "scripts": {
+    "build": "yarn workspaces run build"
+  },
   "devDependencies": {
     "prettier": "^2.7.1"
   }
