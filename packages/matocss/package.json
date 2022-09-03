@@ -1,0 +1,21 @@
+{
+  "name": "matocss",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Huy Nguyen <touch@nguyenrk.com>",
+  "repository": "https://github.com/huyng12/matocss.git",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rm -rf ./dist && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "typescript": "^4.8.2"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.16"
+  }
+}

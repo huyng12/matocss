@@ -4,8 +4,6 @@
     "module": "commonjs",
     "lib": ["es2018"],
     "moduleResolution": "node",
-    "outDir": "./dist",
-    "declaration": true,
     "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
@@ -13,6 +11,5 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  },
-  "include": ["./src/**/*"]
+  }
 }
