@@ -9,7 +9,8 @@ export const generateCSSForAtomicRule: GenerateCSSForAtomicRuleFunc = (
   className,
   cssProperty
 ) => {
-  return `:global(${className}) {
+  const normalizedClassName = className.replaceAll(/[\[\]]/g, "\\$&");
+  return `:global(.${normalizedClassName}) {
     ${cssProperty.prop}: ${cssProperty.value};
   }`;
 };
@@ -24,6 +25,6 @@ export const generateNewCSSForOldRule: GenerateNewCSSForOldRuleFunc = (
   classNames
 ) => {
   return `${selector} {
-    composes: ${classNames.join(" ")};
+    composes: ${classNames.join(" ")} from global;
   }`;
 };
