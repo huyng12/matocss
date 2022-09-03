@@ -11,7 +11,7 @@
     "build": "rm -rf ./dist && tsc"
   },
   "dependencies": {
-    "matocss": "^0.0.1"
+    "@matocss/core": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "^18.7.14",

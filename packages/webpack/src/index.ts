@@ -1,4 +1,4 @@
-import { transform } from "matocss";
+import { transform } from "@matocss/core";
 
 const generatedAtomicClassNames: Set<string> = new Set();
 
