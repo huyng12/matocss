@@ -1,0 +1,8 @@
+.button {
+  background-color: red;
+  color: white;
+}
+
+.button .a {
+  text-decoration: underline;
+}
