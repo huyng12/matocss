@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "matocss",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Huy Nguyen <touch@nguyenrk.com>",
+  "repository": "https://github.com/huyng12/matocss.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  }
+}
