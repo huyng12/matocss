@@ -22,6 +22,8 @@ Update `webpack.config.js` to add our loader for CSS Modules files.
 
 Make sure you put the loader in the last to work.
 
+See the example [here](./examples/create-react-app/config/webpack.config.js#L507-L527).
+
 ```javascript
 {
   test: cssModuleRegex,
