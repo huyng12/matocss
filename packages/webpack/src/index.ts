@@ -1,9 +1,7 @@
-import { transform } from "@matocss/core";
-
-const generatedAtomicClassNames: Set<string> = new Set();
+import { process } from "@matocss/core";
 
 function loader(source: string) {
-  return transform({ source, generatedAtomicClassNames });
+  return process(source);
 }
 
 export default loader;
