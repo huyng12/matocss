@@ -1,0 +1,13 @@
+// Vitest Snapshot v1
+
+exports[`transform css modules to enable atomic 1`] = `
+":global(.color-\\\\[white\\\\]) {
+    color: white;
+  }
+:global(.background-color-\\\\[red\\\\]) {
+    background-color: red;
+  }
+.container {
+    composes: color-[white] background-color-[red] from global;
+  }"
+`;
